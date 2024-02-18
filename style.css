@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#B7C9F2;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #webcam {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  #canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 640px) {
+    #webcam, #canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .header{
+    background-color:#9195F6;
+    padding: 0;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+  }
+  
